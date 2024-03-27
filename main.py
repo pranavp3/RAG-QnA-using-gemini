@@ -8,7 +8,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate 
 
 
-os.environ["GOOGLE_API_KEY"] = str("AIzaSyB7OZmQj3LQ2SiVPg6dBPuqsWk51x3i74c")
+os.environ["GOOGLE_API_KEY"] = str(GOOGLE_API_KEY)
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 
 
